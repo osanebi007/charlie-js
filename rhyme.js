@@ -35,6 +35,5 @@ console.log("Rhyme with 'that':", rhymeWithThat);
 
 
 // the rhyme should start with capital letter
-
-const rhymeWithCapital = rhyme.charAt(0).toUpperCase() + rhyme.slice(1)
-console.log("Rhyme with capital letter:", rhymeWithCapital)
+const rhymeWithCapital = rhymeText.charAt(0).toUpperCase() + rhymeText.slice(1);
+console.log("Rhyme with capital letter:", rhymeWithCapital);
